@@ -2,10 +2,28 @@ body{
     font-family: 'Poppins', sans-serif;
     
 }
+
 h1{
     font-size: 50px;
 }
+
 .main-name{
-    color:brown;
-    
+    color: rgb(212, 109, 6);
+}
+
+section{
+    display: flex;
+}
+    .half-width img{
+    width: 115% 
+}
+
+div{
+    padding-left: 5%;
+}
+.hier-me-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(212, 109, 6), tomato);
+    padding: 1.5% 3%;
+    border-radius: 50;
 }
