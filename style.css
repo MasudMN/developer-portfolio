@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    
+    margin: 0;
 }
 
 h1{
@@ -13,17 +13,28 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 50%;
 }
-    .half-width img{
+
+    .half-width img {
     width: 115% 
+    
 }
 
 div{
-    padding-left: 5%;
+    padding-left:5%;
 }
 .hier-me-button {
     text-decoration: none;
     background-image: linear-gradient(rgb(212, 109, 6), tomato);
     padding: 1.5% 3%;
+    font-weight: 700;
+    color:white;
     border-radius: 50;
 }
+.top-bannar{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
