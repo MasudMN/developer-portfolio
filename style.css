@@ -1,6 +1,6 @@
 body{
-    font-family: 'Poppins', sans-serif;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
@@ -13,7 +13,7 @@ h1{
 
 section{
     display: flex;
-    margin-bottom: 50%;
+    margin bottom: 100px;
 }
 
     .half-width img {
@@ -28,13 +28,29 @@ div{
     text-decoration: none;
     background-image: linear-gradient(rgb(212, 109, 6), tomato);
     padding: 1.5% 3%;
-    font-weight: 700;
+    font-weight: 700px;
     color:white;
-    border-radius: 50;
+    border-radius: 50px;
+    
+}
+
 }
 .top-bannar{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
+.resume-batton{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(212, 109, 6), tomato);
+    font-weight: 700px;
+    color: white;
+    border-radius: 50px;
+    padding: 1.5% 3%; 
+}
 
+.big-dream{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+}
