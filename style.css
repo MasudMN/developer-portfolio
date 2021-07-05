@@ -1,10 +1,14 @@
 body{
-    margin: 10;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 45px;
+}
+
+h2{font-size: 30px;
+
 }
 
 .main-name{
@@ -14,7 +18,7 @@ h1{
 
 .flixible-container{
     display: flex;
-    margin-bottom:500px;
+    margin-bottom:  100px;
     
 }
 
@@ -40,7 +44,7 @@ div{
     padding: 1.5% 3%;
     font-weight: 700px;
     color:white;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 
@@ -49,9 +53,8 @@ p{
 
 }
 
-
 .top-bannar{
-    background-image: url(images/dream-bg.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
@@ -64,26 +67,35 @@ p{
     padding: 1.5% 3%; 
 }
 
+
 .big-dream{
 background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
 background-position: right;
-margin: 0px;
+margin: 0px; 
+
 }
 
 
-
 .developer-experiences{
-    padding-left: 5px;
-    
+    padding-left: 10px;
 }
 
 
 .Experiences-item{
-    width: 80%;
-    box-shadow: 5px 5px 10px;
+    width: 40%;
+    box-shadow: 5px 5px 30px;
+    padding-left: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-left: 10px solid grey;
+    border-radius: 15px;
+
 }
+
 .footer{
     text-align: center;
 }
+
+
 
